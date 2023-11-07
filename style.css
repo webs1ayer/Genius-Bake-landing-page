@@ -1,0 +1,27 @@
+:root {
+	--color-primary-dark: #31261a;
+	--color-primary-light: #faf4ea;
+	--color-brand-light: #819b57;
+	--color-brand-dark: #465929;
+}
+
+body {
+	color: var(--color-primary-dark);
+}
+
+.button {
+	color: var(--color-primary-light);
+	cursor: pointer;
+	border-radius: 8px;
+	border: 2px solid var(--color-brand-light);
+	background: var(--color-brand-light);
+}
+
+.advantages-list {
+	color: var(--color-primary-light);
+	background-color: rgb(129, 155, 87);
+}
+
+.section-title .accent {
+	color: var(--color-brand-dark);
+}
